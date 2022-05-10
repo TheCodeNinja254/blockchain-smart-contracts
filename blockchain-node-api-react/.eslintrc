@@ -1,0 +1,35 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest/globals": true
+  },
+  "extends": [
+    "airbnb-typescript",
+    "plugin:prettier/recommended",
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "jest"],
+  "rules": {
+    "react/prop-types": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ],
+    "react/jsx-props-no-spreading": 0,
+    "react/require-default-props": "warn",
+    "react/no-unused-prop-types": "warn",
+    "class-methods-use-this": 0,
+    "linebreak-style": ["error", "unix"],
+    "no-async-promise-executor": 0
+  }
+}

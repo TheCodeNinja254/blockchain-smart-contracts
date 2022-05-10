@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "build": "node server.js"
+    "build": "node server.js",
+    "lint": "eslint .",
+    "lint-fix": "npm run lint -- --fix"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +20,17 @@
     "mongodb": "^4.2.2",
     "nodemon": "^2.0.15",
     "web3": "^1.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }

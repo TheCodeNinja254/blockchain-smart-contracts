@@ -12,6 +12,6 @@ Backend Access: `http://localhost:4000`
 
 On the blockchain-node-api run `yarn install` then `yarn start`
 
-On the blockchain-node-api-reaact run `yarn install` then  `yarn start`
+On the blockchain-node-react run `yarn install` then  `yarn start`
 
 To deploy: Run `yarn build` then `yarn start:prod`
